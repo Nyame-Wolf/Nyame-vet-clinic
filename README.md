@@ -1,31 +1,26 @@
-# curriculum-databases-projects-template
+# curriculum-databases-projects-
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This Repository contains my database project. It has the commands input to create a database, create tables, edit tables as well as queries made.
+> It uses the template provided by [microverse](https://github.com/microverseinc/curriculum-template-databases). 
 
 
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- The [schema.sql](./schema.sql) has been used to create all tables.
+- The [data.sql](./data.sql) has been used to populate tables with sample data.
+- The [queries.sql](./queries.sql) has examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Mumenya Nyamu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Nyame-Wolf](https://github.com/Nyame-Wolf)
+- Twitter: [@mumenyam](https://twitter.com/Mumenyam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-software-engineer/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
