@@ -12,3 +12,12 @@ CREATE TABLE animals (
 /* Vet clinic database: query and update animals table */
 ALTER TABLE animals
 ADD COLUMN species VARCHAR(50)
+
+/*Vet clinic database: query multiple tables*/
+/*Task1
+create a table owners*/
+CREATE TABLE owners (
+    id SERIAL,
+    full_name VARCHAR(100),
+    age INT,
+);
