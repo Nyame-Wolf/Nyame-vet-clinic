@@ -21,3 +21,10 @@ CREATE TABLE owners (
     full_name VARCHAR(100),
     age INT,
 );
+
+/*Task2
+create a table species*/
+CREATE TABLE species (
+    id SERIAL,
+    name VARCHAR(100),
+);
