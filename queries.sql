@@ -89,3 +89,5 @@ FROM animals
 GROUP BY neutered
 Order by attempts DESC LIMIT 1;                                                                     
 
+SELECT species, MAX(weight_kg), MIN(weight_kg) FROM animals GROUP BY species;
+
