@@ -91,3 +91,13 @@ Order by attempts DESC LIMIT 1;
 
 SELECT species, MAX(weight_kg), MIN(weight_kg) FROM animals GROUP BY species;
 
+SELECT DISTINCT ON (species) species,
+    CASE
+        WHEN (
+            date_of_birth BETWEEN '1990-01-01' AND '2000-01-01'
+        ) THEN AVG(escape_attempts)::numeric(10, 2)
+        ELSE 0
+    END average
+FROM animals
+GROUP BY species, date_of_birth
+ORDER BY species DESC;
