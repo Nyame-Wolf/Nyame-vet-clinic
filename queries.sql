@@ -41,3 +41,13 @@ UPDATE animals
 SET species = 'pokemon' WHERE species IS NULL;
 
 COMMIT;
+
+/*Task3*/
+-- start a transaction
+BEGIN;
+
+-- delete all records in the animals table, then roll back the transaction
+DELETE FROM animals;
+
+ROLLBACK;
+
