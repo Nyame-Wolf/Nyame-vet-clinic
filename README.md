@@ -1,6 +1,7 @@
 # curriculum-databases-projects-
 
 > This Repository contains my database project. It has the commands input to create a database, create tables, edit tables as well as queries made.
+> Here i also demonstrate use of transactions and modify and delete data is sql
 > It uses the template provided by [microverse](https://github.com/microverseinc/curriculum-template-databases). 
 
 
