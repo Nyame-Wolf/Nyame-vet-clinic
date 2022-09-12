@@ -111,7 +111,7 @@ SELECT s.name,COUNT(*) FROM animals  JOIN  species AS s  ON species_id = s.id GR
 SELECT o.full_name AS owner,a.name AS  Digimon_Owned FROM animals AS a INNER JOIN owners AS o ON owner_id = o.id 
 WHERE full_name = 'Jennifer Orwell' AND species_id=2;
 
-SELECT o.full_name AS owner,a.name AS  Not_Trie_To_ESCAPE FROM animals AS a INNER JOIN owners As o ON owner_id = o.id 
+SELECT o.full_name AS owner,a.name AS  Not_Tried_To_ESCAPE FROM animals AS a INNER JOIN owners As o ON owner_id = o.id 
 WHERE full_name = 'Dean Winchester' and escape_attempts = 0 ;
 
 SELECT o.full_name AS owner,COUNT(*) as owns   FROM animals AS a INNER JOIN owners As o ON owner_id = o.id  
