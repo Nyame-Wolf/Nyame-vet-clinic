@@ -33,3 +33,9 @@ VALUES('Sam Smith', 34),
       ('Dean Winchester', 14),
       ('Jodie Whittaker', 38);
 
+/*Task2
+Insert the following data into the species table*/
+INSERT INTO species (name)                                                    
+VALUES('Pokemon'),
+      ('Digimon');
+
