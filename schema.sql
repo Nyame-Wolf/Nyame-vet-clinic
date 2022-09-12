@@ -31,3 +31,24 @@ CREATE TABLE species (
     name VARCHAR(100)
 );
 
+/*Task3
+Modify animals table*/
+--set id to autoincremented PRIMARY KEY
+ALTER TABLE animals                                                                    
+ALTER COLUMN id SET NOT NULL;
+
+ALTER TABLE animals
+ALTER id
+ADD GENERATED ALWAYS  AS IDENTITY (START WITH 11 INCREMENT BY 1),
+ADD PRIMARY KEY(id);
+
+--remove column species
+ALTER TABLE animals DROP COLUMN species;
+
+--Add column species_id which is a foreign key referencing species table
+ALTER TABLE animals ADD species_id INT;
+ALTER TABLE animals ADD FOREIGN KEY (species_id) REFERENCES species(id);
+
+-- Add column owner_id which is a foreign key referencing the owners table
+ALTER TABLE animals ADD owner_id INT;
+ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owners(id);
