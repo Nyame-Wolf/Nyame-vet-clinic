@@ -22,5 +22,14 @@ VALUES (5,'Charmander', '2020-02-08',-11,FALSE,0),
        (10,'Blossom', '1998-10-13',17,TRUE,3),
        (11,'Ditto', '2022-05-14', 22,TRUE,4);
 
-
+/*Vet clinic database: query multiple tables*/
+/*Task1
+Insert the following data into the owners table*/
+INSERT INTO owners (full_name, age)                                                    
+VALUES('Sam Smith', 34),
+      ('Jennifer Orwell', 19),
+      ('Bob', 45),
+      ('Melody Pond', 77 ),
+      ('Dean Winchester', 14),
+      ('Jodie Whittaker', 38);
 
