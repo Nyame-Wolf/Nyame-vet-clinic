@@ -68,4 +68,8 @@ CREATE TABLE specializations (
       PRIMARY KEY( species_id,vet_id) UNIQUE
 );
 
-
+CREATE TABLE visits (
+      animal_id INT NOT NULL   REFERENCES animals(id),
+      vet_id INT NOT NULL  REFERENCES vets(id),
+      visit_date DATE NOT NULL   
+);
